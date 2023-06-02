@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    margin-bottom:0 !important;
+}
+
+.hr {
+    height:1px;
+    width:75px;
+    border:1px solid black;
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    width:150px;
+}
+
+.iconbox-icon {
+    font-size: 30px;
+    line-height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    top: -30px;
+    left: 45%;
+}
+
+.iconbox-icon-m {
+    font-size: 50px;
+    line-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    top: -50px;
+    left: 45%;
+}
+
+.t-gray {
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.bg-blue {
+    background-color:#37517e;
+}
+
+.button-gs {
+    padding: 10px 20px;
+    border: 1px solid #47b2e4;
+    border-radius:50px;
+}
+
+.button-gs:hover {
+    background-color: #47b2e4;
+    cursor:pointer;
+}
+
+.button-bg-blue {
+    padding: 10px 20px;
+    border: 1px solid #47b2e4;
+    border-radius:50px;
+    background-color: #47b2e4;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    border: 1px solid #47b2e4;
+}
+
+.t-blue {
+    color:#47b2e4;
+}
+
+.t-aqua {
+    color:#37517e;
+}
+.t-black {
+    color:#333;
+}
+
+.width-90 {
+    width:90%;
+}
+
+.margin-b-7 {
+    margin-bottom:7%;
+} 
+
+.text-gray {
+    color:#999;
+}
+
+.border-top-blue {
+    border-top:5px solid #47b2e4;
+}
+
+
+@media screen and (max-width:1000px) {
+    .flex-dc {
+        flex-direction:column !important;
+    }
+
+    .width-100 {
+        width:100% !important;
+    }
+
+    .center-j {
+        display:flex !important;
+        justify-content: center !important;
+    }
+
+    .center-a {
+        display:flex !important;
+        align-items: center !important;
+    }
+
+    .display-none {
+        display:none;
+    }
+}
